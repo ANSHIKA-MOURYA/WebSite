@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="shopify.css">
+
+  <script src="shopify.js" defer></script>
+  <title>Beats</title>
+</head>
+<body>
+ 
+  <header class="header" id="header">
+    <nav class="nav container"> 
+       <a href="#" class="footer__logo">
+        <img src="" alt="">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#specs" class="nav__link">Specs</a>
+          </li>
+          <li class="nav__item">
+            <a href="#case" class="nav__link">Case</a>
+          </li>
+          <li class="nav__item">
+            <a href="#products" class="nav__link">Products</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--========= HOME =========-->
+    <section class="home section" id="home">                       
+      <div class="home__container container grid">
+        <div>
+          <img src="D:\web developement\oasis infobyte projects\landing page\images\home.png" alt="" class="home__img">
+        </div>
+        
+        <div class="home__data">
+          <div class="home__header">
+            <h1 class="home__title">trendy</h1>
+            <h2 class="home__subtitle">vibe</h2>
+          </div>
+  
+          <div class="home__footer">
+            <h3 class="home__title-description">Overview</h3>
+            <p class="home__description">
+              Enjoy award-winning Beats sound with wireless listening freedom and a sleek,
+               streamlined design with confortable padded earphones, delivering first-rate playback.
+            </p>
+            <a href="#" class="button button--flex">
+              <span class="button--flex">
+                <i class="ri-shopping-bag-line"></i> Add to Bag
+              </span>
+              <span class="home__price">₹1999</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========= SPONSORS =========-->
+    <section class="sponsor section">
+      <div class="sponsor__container container grid">
+        <img src="D:\web developement\oasis infobyte projects\landing page\images\sponsor1.png" alt="apple" class="sponsor__img">
+        <img src="https://gumlet.assettype.com/swarajya/2021-01/7a6e91f6-5862-4ac5-bb08-eb5bf2a3e20c/boAt_logo.jpg" alt="boat" class="sponsor__img">
+        <img src=" data:image/png;base64,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"alt="firebolt" class="sponsor__img">
+        <img src="https://logos-world.net/wp-content/uploads/2020/12/JBL-Symbol.png" alt="jbl" class="sponsor__img">
+      </div>
+    </section>
+
+    <!--========= SPECS =========-->
+    <section class="specs section grid" id="specs">
+      <h2 class="section__title section__title-gradient">Specs</h2>
+
+      <div class="specs__container container grid">
+        <div class="specs__content grid">
+          <div class="specs__data">
+            <i class="ri-bluetooth-line specs__icon"></i>
+            <h3 class="specs__title">Connection</h3>
+            <span class="specs__subtitle">Bluetootj v5.2</span>
+          </div>
+
+          <div class="specs__data">
+            <i class="ri-battery-charge-line specs__icon"></i>
+            <h3 class="specs__title">Battery</h3>
+            <span class="specs__subtitle">Duration 40h</span>
+          </div>
+          <div class="specs__data">
+            <i class="ri-plug-line specs__icon"></i>
+            <h3 class="specs__title">Load</h3>
+            <span class="specs__subtitle">Fast charg 4.2-AAC</span>
+          </div>
+
+          <div class="specs__data">
+            <i class="ri-mic-line specs__icon"></i>
+            <h3 class="specs__title">Microphone</h3>
+            <span class="specs__subtitle">Support Apple Siri <br> and Google</span>
+          </div>
+        </div>
+
+        <div>
+          <img src="D:\web developement\oasis infobyte projects\landing page\images\specs.png" alt="specs" class="specs__img">
+        </div>
+      </div>
+    </section>
+
+    <!--========= CASE =========-->
+    <section class="case section grid" id="case">
+      <div class="container">
+        <h2 class="section__title section__title-gradient">Case</h2>
+
+        <div class="case__container container grid">
+          <div>
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\case.png" alt="case" class="case__img">
+          </div>
+
+          <div class="case__data">
+            <p class="case__description">With a confortable and adaptable case so that you can store it whenever
+             you want, and keep your durability forever</p>
+  
+            <a href="#" class="button button--flex">
+              <i class="ri-information-line button__icon"></i> More info
+            </a>
+          </div>
+        </div>       
+      </div>
+    </section>
+
+    <!--========= DISCOUNT =========-->
+    <section class="discount section">
+      <div class="discount__container container grid">
+        <div class="discount__animate">
+          <h2 class="discount__title">Immerse yourself in <br> your music</h2>
+          <p class="discount__description">Get it now, up to 50% off.</p>
+          <a href="#" class="button button--flex">
+            <i class="ri-shopping-bag-line button__icon"></i> Shop Now</a>
+        </div>
+
+        <img src="D:\web developement\oasis infobyte projects\landing page\images\discount.png" alt="" class="discount__img">
+      </div>
+    </section>
+
+    <!--========= PRODUCTS =========-->
+    <section class="products section" id="products">
+      <h2 class="section__title section__title-gradient products__line">
+        Choose <br> Your Style
+      </h2>
+
+      <div class="products__container container grid">
+        <article class="products__card">
+          <div class="products__content">
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\product1.png" alt="apple_headphone" class="products__img">
+            <h3 class="products__title">Black</h3>
+            <span class="products__price">₹2999</span>
+
+            <button class="button button--flex products__button">
+              <i class="ri-shopping-bag-line button__icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\product2.png" alt="" class="products__img">
+            <h3 class="products__title">Red Black</h3>
+            <span class="products__price">₹1999</span>
+
+            <button class="button button--flex products__button">
+              <i class="ri-shopping-bag-line button__icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\product3.png" alt="" class="products__img">
+            <h3 class="products__title">Night Black</h3>
+            <span class="products__price">₹1599</span>
+
+            <button class="button button--flex products__button">
+              <i class="ri-shopping-bag-line button__icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\product4.png" alt="" class="products__img">
+            <h3 class="products__title">Blue</h3>
+            <span class="products__price">₹1899</span>
+
+            <button class="button button--flex products__button">
+              <i class="ri-shopping-bag-line button__icon"></i>
+            </button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="D:\web developement\oasis infobyte projects\landing page\images\product5.png" alt="" class="products__img">
+            <h3 class="products__title">Twilight Gray</h3>
+            <span class="products__price">₹1699</span>
+
+            <button class="button button--flex products__button">
+              <i class="ri-shopping-bag-line button__icon"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!--========= FOOTER =========-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <a href="#" class="footer__logo">
+        <img src="" alt="">
+      </a>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Products</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Headphones</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Earphones</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Earbuds</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Accesories</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Support</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Product help</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Register</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Updates</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Provides</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <form action="" class="footer__form">
+          <input type="email" placeholder="Email" class="footer__input">
+          <button class="button button--flex">
+            <i class="ri-send-plane-line button__icon"></i>Subscribe
+          </button>
+        </form>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-line"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer__copy">
+      <a href="#" target="_blank" class="footer__copy-link">
+       
+      </a>
+    </p>
+  </footer>
+
+  <!--========= SCROLL UP =========-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line scroll__icon"></i>
+  </a>
+  <!--========= SCROLL REVEAL =========--> 
+  <script src="D:\web developement\oasis infobyte projects\landing page\scroll reveal.js"></script>
+
+  
+</body>
+</html>
